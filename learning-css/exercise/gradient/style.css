@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.linear {
+  width: 75%;
+  padding: 48px;
+  text-align: center;
+  border: 5px solid #000;
+  background: linear-gradient(180deg, #2c856e, #2bf7c4)
+}
+
+.gradial {
+  width: 75%;
+  padding: 48px;
+  text-align: center;
+  border: 5px solid #000;
+  margin-top: 18px;
+  background: radial-gradient(#2bf7c4, #2c856e, #014735);
+}

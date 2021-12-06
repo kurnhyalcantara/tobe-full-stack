@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ececec;
+  margin: 0;
+  padding: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 12px 20px rgba(0, 0, 0, 0.05);
+}
+
+.container > div {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Primary Button */
+
+.primary {
+  display: inline-block;
+  padding: 12px;
+  margin-right: 12px;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 900;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
+  width: 25%
+}
+
+.black span {
+
+}
+
+.black span::after {
+  content: '\00bb';
+  margin-left: 8px;
+  display: none;
+  transition: 2s;
+}
+
+.black:hover span::after {
+  display: inline;
+}
+
+.green {
+  background-color: #01aa34;
+  color: #fff;
+  transition: 1s;
+}
+
+.green:hover {
+  opacity: 0.6;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.transparent:hover {
+  background: #ececec;
+}
+
+.link:link {
+  color: #01aa34;
+}
+
+.link:visited {
+  color: #01aa34;
+}
+
+.link:active {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Outline Button */
+

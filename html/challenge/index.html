@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: 'Comfortaa', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      letter-spacing: 1.5;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      background-color: transparent;
+    }
+  
+    .logo-name {
+      float: left;
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-link {
+      float: right;
+    }
+  
+    li {
+      display: inline-block;
+      list-style-type: none;
+      margin-right: 22px;
+    }
+  
+    a {
+      text-decoration: none;
+      font-weight: 900;
+      color: #0063b4;
+    }
+  
+    a:hover {
+      cursor: pointer;
+    }
+  
+    .title-company {
+      font-weight: 900;
+      color: #e76921;
+    }
+    
+    .hero-app {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 72px 48px;
+    }
+  
+    .hero {
+      float: left;
+      flex-wrap: wrap;
+      max-width: 324px;
+      color: #0063b4;
+    }
+  
+    .hero .ads-title {
+      font-family: 'Changa One';
+      font-size: 72px;
+      margin-bottom: 4px;
+    }
+
+    .hero .ads-desc {
+      font-size: 12px;
+      letter-spacing: 4px;
+    }
+  
+    .hero-image {
+      float: right;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 12px;
+      margin-top: 28px;
+    }
+
+    .cta-action {
+      font-family: 'Comfortaa';
+      padding: 6px 22px;
+      background-color: #e76921;
+      border-radius: 50px;
+      color: white;
+      box-shadow: none;
+      font-weight: 900;
+    }
+
+    @media (max-width: 825px) {
+      .hero-app {
+        flex-wrap: wrap;
+        text-align: center;
+      }
+
+      .hero {
+        min-width: 100%;
+      }
+
+      .hero-image-src {
+        width: 512px;
+        height: 512px;
+      }
+    }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-name">
+      <img src="https://png.pngtree.com/png-vector/20191018/ourlarge/pngtree-gym-logo-png-image_1824195.jpg" alt="gym logo" width="56px" height="56px">
+      <span class="title-company">Gym Website</span>
+    </div>
+    <div class="nav-link">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Portofolio</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="hero-app">
+    <div class="hero">
+      <h1 class="ads-title">NEVER GIVE UP!</h1>
+      <h3 class="ads-desc">SPORT LANDING PAGE DESIGN</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <button class="cta-action">Try it</button>
+    </div>
+    <div class="hero-image">
+      <img class="hero-image-src" src="https://previews.123rf.com/images/luplupme/luplupme2005/luplupme200500096/146141283-father-time-with-son-vector-illustration-cartoon-flat-dad-and-boy-characters-do-sport-activity-fitne.jpg" alt="gym-hero-logo" width="325px" height="325px">
+    </div>
+  </div>
+</body>
+</html>

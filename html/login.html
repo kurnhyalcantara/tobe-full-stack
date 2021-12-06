@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 900;
+  }
+
+  fieldset {
+    padding: 18px;
+  }
+
+  fieldset > input {
+    width: 80%;
+    padding: 8px 4px;
+  }
+
+  .submit {
+    padding: 8px;
+    width: 25%;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+</style>
+<body>
+  <h1 style="text-align: center;">Login Page</h1>
+  <form action="https://www.w3schools.com/action_page.php" method="get">
+    <fieldset>
+      <label for="username">Username</label>
+      <input type="text" name="firstname" id="username">
+      <label for="password">Password</label>
+      <input type="password" name="firstname" id="password">
+    </fieldset>
+    <div style="text-align: center; margin-top: 16px;">
+      <input class="submit" type="submit" value="Login">
+    </div>
+  </form>
+</body>
+</html>
