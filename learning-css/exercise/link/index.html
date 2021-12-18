@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button with link tag</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+
+      a {
+        margin-right: 18px;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      a.text-link {
+        color: #049493;
+      }
+
+      a.text-link:hover {
+        color: #0ab8b8;
+      }
+
+      a.outline-button {
+        padding: 12px;
+        background: transparent;
+        border: 1px solid #449944;
+        color: #449944;
+      }
+
+      a.outline-button:hover {
+        background-color: #449944;
+        color: #fff;
+      }
+
+      a.primary-button {
+        padding: 12px;
+        background-color: #0ab8b8;
+        color: #fff;
+        border-radius: 4px;
+      }
+
+      a.primary-button:hover {
+        background-color: #049493;
+      }
+    </style>
+    <div class="container">
+      <a href="#">Text link</a>
+      <a class="text-link" href="#">Text link</a>
+      <a class="outline-button" href="#">Outline Button</a>
+      <a class="primary-button" href="#">Primary Button</a>
+    </div>
+  </body>
+</html>
