@@ -5,8 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('https://cdn0-production-images-kly.akamaized.net/Evrv-GJThtlXnkl2lMRMxd6Eg-o=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2034539/original/035788100_1522127886-Facebook_News_Feed__Facebook_.jpg');
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://cdn0-production-images-kly.akamaized.net/Evrv-GJThtlXnkl2lMRMxd6Eg-o=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2034539/original/035788100_1522127886-Facebook_News_Feed__Facebook_.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
