@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 568px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #008848;
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.navbar a:hover {
+  background-color: #027a42;
+}
+
+.navbar .active {
+  background-color: #027a42;
+}
+
+.navbar .profile-dropdown {
+  display: none;
+  position: absolute;
+  width: 125px;
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 8px 4px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
+.profile-dropdown a {
+  display: block;
+  color: #008848;
+}
+
+.profile-dropdown a:hover {
+  color: #fff;
+}
+
+.profile:hover .profile-dropdown {
+  display: block;
+}
+
+.about {
+  float: right;
+}
+
+main {
+  padding: 12px 24px;
+  background-color: #f3f3f3;
+}
+
+.status {
+  background-color: #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.status:hover {
+  cursor: pointer;
+}
+
+footer {
+  padding: 12px 36px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 512px) {
+  header {
+    min-height: 100vh;
+  }
+
+  li,
+  .about {
+    float: none;
+  }
+
+  .navbar a {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar .profile-dropdown {
+    position: relative;
+    border: 0;
+    width: 100%;
+  }
+
+  .profile-dropdown a:hover {
+    background-color: #ebebeb;
+    color: #008848;
+  }
+}
+
+@media screen and (min-width: 976px) {
+  ul {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 25%;
+  }
+
+  li,
+  .about {
+    float: none;
+  }
+
+  .navbar a {
+    display: block;
+  }
+
+  .navbar .profile-dropdown {
+    position: relative;
+    width: 100%;
+  }
+
+  header,
+  main {
+    margin-left: 25%;
+  }
+}
