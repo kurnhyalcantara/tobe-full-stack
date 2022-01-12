@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Components</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <style>
+      [class*="col"] {
+        padding: 0.5rem;
+        background-color: #00aaf8;
+        margin: 0 0.3rem;
+        text-align: center;
+      }
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row my-8 justify-content-center">
+        <h1 style="text-align: center">Bootstrap Component</h1>
+        <div class="col-4"><a href="button.html">Button</a></div>
+        <div class="col-4"><a href="alert.html">Alert</a></div>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
